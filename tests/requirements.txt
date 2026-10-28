@@ -1,0 +1,8 @@
+# test-only dependencies (the tool itself: see README.md)
+pytest
+numpy
+pillow
+opencv-python-headless
+rapidocr-onnxruntime   # stand-in for Apple Vision's OCR (tests needing it are skipped without it)
+playwright             # review-page tests; then: playwright install chromium
+# also used if present: node (JS syntax check), exiftool (apply tests)

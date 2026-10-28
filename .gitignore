@@ -1,0 +1,20 @@
+# working data and outputs (contain your photos)
+*-review/
+stampede-debug/
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+*.csv
+.stampede-manifest.json
+.stamp_dates-manifest.json
+# python / macOS
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+# tests
+tests/.cache/
+.pytest_cache/
